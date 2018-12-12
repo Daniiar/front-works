@@ -1,9 +1,14 @@
-.header {
+header, footer {
 	background: #E0E0E0;
-	text-align: center;
 	height: 50px;
 }
-.main {
+.footer {
+	text-align: left;
+    margin-left: 150px;
+    padding-top: 15px;
+    margin-top: 100px;
+}
+main {
 	width: 75%;
 	margin: auto;
 }
@@ -67,12 +72,21 @@ hr {
 .article p {
 margin-left: 20px;
 }
-
-
-/*.images ul li{
-	display: inline;
+.images {
+	text-align: center;
 }
 img {
-	width: 20px;
+	width: 28%;
 	height: 100px;
-}*/
+	margin: 10px;
+	border: 5px double #E0E0E0;
+	border-radius: 5px
+}
+.button-all-images {
+	text-align: center;
+}
+#button-all-images {
+	position: absolute;
+	margin-left: -60px;
+	width: 120px;
+}
