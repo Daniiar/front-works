@@ -1,0 +1,116 @@
+nav {
+	background: black;
+	height: 40px;
+}
+ul {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+ul li {
+    display: inline;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+span {
+    background: red;
+    border-radius: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+main {
+	text-align: center;
+}
+.promo {
+	margin-top: 15px;
+    width: 98%;
+    text-align: center;
+    height: 200px;
+    border: 5px double #E0E0E0;
+	border-radius: 5px
+}
+/**/
+section {
+	width: 100%;
+}
+h1 {
+	width: 50%;
+    margin-left: 35px;
+}
+.description {
+	width: 100%;
+	height: 80px;
+}
+p {
+	margin-left: 177px;
+    width: 60%;
+    text-align: left;
+    margin-top: -5px;
+}
+.image-zone {
+    width: 500px;
+    margin-left: 172px;
+    height: 450px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.image-zone img {
+	width: 490px;
+    height: 220px;
+}
+h2 {
+    width: 35%;
+    margin-left: 30px;
+}
+.image-zone p {
+	margin-left: 30px;
+	width: 87%;
+}
+button {
+	width: 100px;
+	font-size: 18px;
+	width: 85px;
+    font-size: 18px;
+    border-radius: 11px;
+    height: 37px;
+    float: left;
+}
+#first {
+	background: deepskyblue;
+    margin-left: 20px;
+    color: white;
+}
+#second {
+	background: white;
+    margin-left: 5px;
+}
+.tape-images {
+	margin-top: 50px;
+}
+.tape-images img {
+    width: 180px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2px;
+}
+.all-images-button button{
+    float: none;
+    margin-top: 16px;
+    font-size: 13px;
+    height: 29px;
+    width: 77px;
+    background: deepskyblue;
+    color: white;
+}
+footer {
+	background: black;
+	height: 40px;
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 43px;
+}
+footer ul {
+	margin-left: 218px;
+}
