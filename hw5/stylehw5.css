@@ -1,9 +1,9 @@
-footer {
+body {
+	margin: 0px;
+}
+header {
 	padding-top: 5px;
 	background: #373c3f;
-	color: white;
-	font-size: 18px;
-	line-height: 26px;
 }
 ul {
 	height: 50px;
@@ -12,6 +12,13 @@ ul li{
 	display: inline;
 	padding-left: 21px;
 }
+ul li a {
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    opacity: 0.8;
+    margin-left: 0px;
+} 
 main {
 	margin-top: -40px;
 }
@@ -75,13 +82,15 @@ img {
 	height: 500px;
     background: #ebebeb
 }
-.bottom h2{
+.bottom h2 {
+	margin-top: 0px;
+}
+.bottom h2 a {
 	color: #088ca5;
-    padding-top: 20px;
-    margin-top: 0px;
-    margin-bottom: -20px;
     font-size: 30px;
     line-height: 44px;
+    opacity: 1.0;
+    margin-left: 0px;
 }
 p {
 	color: #515151;
