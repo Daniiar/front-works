@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+}
+header, footer {
+	height: 110px;
+}
+header img {
+	width: 212px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.top {
+	float: right;
+}
+.top a {
+	text-decoration: none;
+	color: #393939;
+    line-height: 22px;/*---------------------*/
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.promo, main, a, button {
+	color: white;
+}
+
+/*promo========================================*/
+.promo {
+	text-align: center;
+	height: 600px;
+}
+.promo img {
+	width: 100%;
+	height: 600px;
+}
+.promo-headline {
+	margin-top: -400px;
+}
+.promo h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.promo p {
+	font-size: 24px;
+    line-height: 38px;
+    margin-top: 0;
+}
+
+/*main*/
+	/*first line*/
+.first-line, .second-line, .third-line {
+    height: 326px;
+}
+.first-block, .second-block, .second-block img, .third-block, .green, .autumn {
+	height: 100%
+}
+.first-block {
+	width: 33%;
+    float: left;
+    background: #f1efec;
+}
+.first-block a {
+	margin-left: 10px;
+}
+.first-block img {
+    margin-top: 40%;
+    /*width: 277px;*/
+    width: 88%;
+    height: 59px;
+}
+.second-block {
+	width: 34%;
+	float: left;
+}
+.second-block img {
+	width: 100%;
+}
+.third-block {
+	background: #9b242d;
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+.third-block h1 {
+	margin-top: 120px;
+}
+.third-block a {
+	font-size: 40px;
+}
+.third-block p {
+	margin-bottom: 0;
+    font-size: 16px;/*---------------------*/
+    margin-top: -15px;
+    line-height: 22px;/*---------------------*/
+}
+	/*second line===============================================*/
+.green {
+	width: 67%;
+	background: #46a651;
+}
+.green h1 {
+	margin: 0;
+    padding: 45px 50px 0;
+    text-align: right;
+    font-size: 40px;
+}
+.green p {
+	margin: 0;
+    text-align: right;
+    padding: 15px 50px 0;
+    font-size: 16px;/*---------------------*/
+    line-height: 22px;/*---------------------*/
+}
+.green button {
+	float: right;
+    margin: 25px 50px;
+    background: #348e3e;
+    border: none;
+    line-height: 22px;/*---------------------*/
+    font-size: 16px;/*---------------------*/
+    width: 120px;
+    height: 40px;
+}
+.autumn {
+	width: 33%;
+	float: right;
+	margin-top: -326px;
+}
+.autumn img {
+	width: 100%;
+	height: 100%;
+}
+.grass {
+	width: 67%;
+	height: 100%;
+}
+.grass img {
+	width: 100%;
+	height: 100%;
+}
+.facebook {
+	background: #3b5997;
+    width: 33%;
+    float: right;
+    margin-top: -326px;
+    height: 100%;
+}
+.facebook img {
+    margin-top: 120px;
+    margin-left: 165px;
+}
+.facebook-link {
+	text-align: center;
+}
+.facebook-link a {
+	line-height: 22px;
+	font-size: 16px;
+}
+footer {
+	background: #373838;
+}
+nav {
+	text-align: center;
+	padding-top: 50px;
+}
+nav a {
+	text-decoration: none;
+	color: #939393;
+	font-size: 15px;
+	line-height: 22px;
+    margin: 0 35px 0 35px;
+}
